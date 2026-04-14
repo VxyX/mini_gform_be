@@ -1,5 +1,6 @@
 fastapi[all]
 uvicorn[standard]
+bcrypt==4.0.1
 passlib[bcrypt]
 python-multipart
 pydantic-settings
