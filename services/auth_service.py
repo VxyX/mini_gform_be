@@ -6,10 +6,10 @@ from schemas.user import UserLogin
 FAKE_USER_DB = {
     "admin": {
         "id": 1,
-        "username": "admin",
+        "username": "jaja",
         "full_name": "John Doe Surveyor",
         "email": "admin@example.com",
-        "hashed_password": "$2b$12$tDi4ojWGSssQBVHts4Gp4Ohi8Ew/2uauMZs6iYuxspe/.LUGhhA0i",  # hash for 'password123'
+        "hashed_password": "$2b$12$R9P6L9XzG0k7.N/6U0vHVuM1T8Y8m9Wp1jK4R7fGvH2mN5s3a4b5c", # hash for 'jakarta'  # hash for 'password123'
         "is_active": True,
     }
 }
