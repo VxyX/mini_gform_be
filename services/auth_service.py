@@ -9,7 +9,7 @@ FAKE_USER_DB = {
         "username": "jaja",
         "full_name": "John Doe Surveyor",
         "email": "admin@example.com",
-        "hashed_password": "$2b$12$R9P6L9XzG0k7.N/6U0vHVuM1T8Y8m9Wp1jK4R7fGvH2mN5s3a4b5c", # hash for 'jakarta'  # hash for 'password123'
+        "hashed_password": "$2b$12$7kP.K6G06UvYw.v7tXN3Se6nI6yZ9vLzS8R4iX.O/2/29P5g7B2m2", # hash for 'jaja', # hash for 'jakarta'  # hash for 'password123'
         "is_active": True,
     }
 }
