@@ -1,6 +1,6 @@
 from typing import Optional
-from surveyor_backend.core.security import verify_password, create_access_token
-from surveyor_backend.schemas.user import UserLogin
+from core.security import verify_password, create_access_token
+from schemas.user import UserLogin
 
 # Hardcoded "Database"
 FAKE_USER_DB = {

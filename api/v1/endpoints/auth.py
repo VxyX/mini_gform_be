@@ -1,10 +1,10 @@
 from datetime import timedelta
 from fastapi import APIRouter, Depends, HTTPException, status
-from surveyor_backend.core.config import settings
-from surveyor_backend.core.security import create_access_token
-from surveyor_backend.schemas.user import UserLogin, UserOut
-from surveyor_backend.schemas.token import Token
-from surveyor_backend.services import auth_service
+from core.config import settings
+from core.security import create_access_token
+from schemas.user import UserLogin, UserOut
+from schemas.token import Token
+from services import auth_service
 
 router = APIRouter()
 
